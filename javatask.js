@@ -1,9 +1,17 @@
-alert("please enter the operation you want to perform.");
-function getInputValue(){
-    var x=
-    document.getElementById("myText").getInputValue;
-    document.getElementById("task").innerHTML=x
-}
-alert("Example: +, -, /, * ");
-alert("number 1");
-alert(number2);
+alert("What operation do you want to perform?")
+
+let a = prompt("Example: +, -, / or *")
+
+let isValidOperation= "+"
+
+let isOperation= true;
+
+console.log("Enter a Number", )
+
+let b = prompt("enter a number",)
+
+let isNumber= true;
+console.log
+let c = prompt("enter the operation you want to perform", )
+
+alert (+a + +b);
