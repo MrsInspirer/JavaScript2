@@ -1,30 +1,32 @@
 alert("What operation do you want to perform? Example: +, -, / or *")
 
-let a = +prompt("Enter a number.")
+const number1 = prompt("Enter a number.");
 
-let b = prompt("Enter an operation.")
+const operation= prompt("Enter an operation.")
 
-let isValidOperation = '+';
+const number2= prompt ("Enter your next number");
 
-if (isValidOperation == '+') {
-    c= +prompt ("Enter your next number");
-    
+let result;
+
+if (operation == '+') {
+   
+    result=alert(number1 + number2);
 }
 
-else if(isValidOperation == '-'){
-    c= prompt ("Enter your next number");
-    alert(a-c);
+else if (operation == '-'){
+    
+    result= alert(number1 - number2);
 }
 
     
-else if(isValidOperation == '*'){
-    alert(a*c);
+else if (operation == '*'){
+   result= alert(number1 * number2);
 }
    
 
-else {(isValidOperation == '/')
-alert(a/c);}
-alert(+a+ +c);
+else {(operation == '/')
+result= alert(number1 / number2);}
+
 
 
 
